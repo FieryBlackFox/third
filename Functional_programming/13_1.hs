@@ -1,0 +1,1 @@
+digitsToNum xs = foldr(\(x,y) res->res+x*y) 0 (foldr(\x res->(x,10^(length res)):res) [] xs)

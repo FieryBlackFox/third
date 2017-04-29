@@ -1,0 +1,1 @@
+superMap f xs = foldr (\res x->res++x) [] (map(\x-> f x) xs)

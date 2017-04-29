@@ -1,0 +1,1 @@
+cartesian xs ys = xs >>= \x-> (ys>>= \y->[(x,y)])

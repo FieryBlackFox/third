@@ -1,0 +1,1 @@
+repeatFunc f n = foldr (.) f (map(\x->f) [1..(n-1)])

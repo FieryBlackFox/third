@@ -1,0 +1,5 @@
+isosc (x,y) (x1,y1) (x2,y2) = (a==b) || (b==c) || (c==a)
+                              where a = lenght (x,y) (x1,y1)
+                                    b = lenght (x1,y1) (x2,y2)
+                                    c = lenght (x2,y2) (x,y)
+lenght (x,y) (x1,y1) = sqrt(fromIntegral((x-x1)^2+(y-y1)^2))

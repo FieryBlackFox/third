@@ -1,0 +1,1 @@
+coins n = [[k,l,m]|k<-[0..(div n 2)], l<-[0..(div n 3)], m<-[0..(div n 5)], k*2+l*3+m*5==n]
